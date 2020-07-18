@@ -1,0 +1,41 @@
+/* css for html and body */
+html, body{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #000000;
+    background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
+}
+
+/* css for rods */
+#rod-one, #rod-two{
+    width: 200px;
+    height: 20px;
+    border-radius: 20px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    background: #7F7FD5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#rod-one{
+    top: 0px;
+}
+
+#rod-two{
+    bottom: 0px;
+}
+
+/* css fo ball */
+#ball{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
